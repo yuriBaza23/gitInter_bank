@@ -16,6 +16,7 @@ code {
   --primary: #FF6E07;
   --light_primary: #FFE7D6;
   --white: #FFF;
+  --white_70: rgba(255, 255, 255, .7);
   --background: #F5F6FA;
   --normal_text: #8F8F8F;
   --placeholders: rgba(47, 46, 65, .55);
