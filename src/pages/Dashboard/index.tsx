@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 
 const Dashboard: React.FC = () => {
     return(
@@ -13,7 +14,7 @@ const Dashboard: React.FC = () => {
                     <h1>GH</h1>
                 </div>
                 <div className="dashboard-header-cards">
-                    
+
                 </div>
             </header>
         </div>
