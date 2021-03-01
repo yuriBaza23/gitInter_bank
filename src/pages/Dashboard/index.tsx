@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiBook, FiPackage, FiTrello } from 'react-icons/fi';
+import profileImg from '../../assets/profile-gitinter.svg';
 import './styles.css';
 
 const Dashboard: React.FC = () => {
@@ -35,6 +36,19 @@ const Dashboard: React.FC = () => {
                     </div>
                 </div>
             </header>
+        
+            <section className="data-github-user">
+                <h1>Os dados de um #DEV 💻</h1>
+                <h2>Os dados estão sendo mostrados aqui para que olhar o quanto vem evoluindo como DEV</h2>
+                <div className="card-data">
+                    <div>
+                        <img src={profileImg} alt=''/>
+                    </div>
+                    <aside>
+                        <h2>CEO at Newhappen and CTO at Sangue Bom<br/>Academic at the Federal Technological University of Paraná and student at Rocketseat<br/>I'm currently learning about Elixir and cybersecurity</h2>
+                    </aside>
+                </div>
+            </section>
         </div>
     );
 }
