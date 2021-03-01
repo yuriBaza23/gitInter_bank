@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiBook, FiPackage, FiTrello } from 'react-icons/fi';
 import './styles.css';
 
 const Dashboard: React.FC = () => {
@@ -14,7 +15,24 @@ const Dashboard: React.FC = () => {
                     <h1>GH</h1>
                 </div>
                 <div className="dashboard-header-cards">
-
+                    <div className="card">
+                        <div className="symbol">
+                            <FiBook/>
+                        </div>
+                        <span>Repositórios</span>
+                    </div>
+                    <div className="card">
+                        <div className="symbol">
+                            <FiTrello/>
+                        </div>
+                        <span>Projetos</span>
+                    </div>
+                    <div className="card">
+                        <div className="symbol">
+                            <FiPackage/>
+                        </div>
+                        <span>Pacotes</span>
+                    </div>
                 </div>
             </header>
         </div>
