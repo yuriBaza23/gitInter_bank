@@ -95,3 +95,53 @@
 .dashboard-container .dashboard-header .dashboard-header-cards .card span {
     color: var(--normal_text);
 }
+
+.dashboard-container .data-github-user {
+    padding: 50px 50px 80px 50px;
+    margin-top: 120px;
+}
+
+.dashboard-container .data-github-user h1 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.dashboard-container .data-github-user h2 {
+    color: var(--normal_text);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.dashboard-container .data-github-user .card-data {
+    display: flex;
+    width: 50%;
+    padding: 25px;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.dashboard-container .data-github-user .card-data aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dashboard-container .data-github-user .card-data aside h2 {
+    margin-bottom: 0;
+}
+
+.dashboard-container .data-github-user .card-data div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.dashboard-container .data-github-user .card-data img {
+    width: 120px;
+    height: 120px;
+}
