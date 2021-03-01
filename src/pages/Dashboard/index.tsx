@@ -39,7 +39,7 @@ const Dashboard: React.FC = () => {
         
             <section className="data-github-user">
                 <h1>Os dados de um #DEV 💻</h1>
-                <h2>Os dados estão sendo mostrados aqui para que olhar o quanto vem evoluindo como DEV</h2>
+                <h2>Os dados estão sendo mostrados aqui para que consiga olhar o quanto vem evoluindo como DEV</h2>
                 <div className="card-data">
                     <div>
                         <img src={profileImg} alt=''/>
