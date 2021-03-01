@@ -1,4 +1,11 @@
+.dashboard-container {
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+}
+
 .dashboard-container .dashboard-header {
+    position: relative;
     display: flex;
     align-items: center;
 
@@ -44,4 +51,47 @@
 
     font-weight: 400;
     color: var(--primary);
+}
+
+.dashboard-container .dashboard-header .dashboard-header-cards {
+    position: absolute;
+    display: flex;
+    top: 80%;
+}
+
+.dashboard-container .dashboard-header .dashboard-header-cards .card {
+    width: 120px;
+    height: 120px;
+    padding: 25px;
+    background: var(--white);
+    border-radius: 8px;
+    margin-left: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-container .dashboard-header .dashboard-header-cards .card:first-child {
+    margin-left: 0;
+}
+
+.dashboard-container .dashboard-header .dashboard-header-cards .card .symbol {
+    width: 70px;
+    height: 70px;
+    background: var(--light_primary);
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.dashboard-container .dashboard-header .dashboard-header-cards .card span {
+    color: var(--normal_text);
 }
