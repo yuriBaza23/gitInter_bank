@@ -49,6 +49,16 @@ const Dashboard: React.FC = () => {
                     </aside>
                 </div>
             </section>
+        
+            <section className="search-repositories">
+                <div className="card-search">
+
+                </div>
+                <h1>Repositórios buscados recentemente</h1>
+                <div className="card-recent">
+
+                </div>
+            </section>
         </div>
     );
 }
