@@ -19,6 +19,7 @@ code {
   --white_70: rgba(255, 255, 255, .7);
   --background: #F5F6FA;
   --normal_text: #8F8F8F;
+  --title_black: #2F2E41;
   --placeholders: rgba(47, 46, 65, .55);
   --input: #F3F3F3;
 }
