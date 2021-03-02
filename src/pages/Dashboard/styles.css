@@ -2,6 +2,7 @@
     background-color: var(--background);
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .dashboard-container .dashboard-header {
@@ -149,4 +150,55 @@
 .dashboard-container .search-repositories {
     padding: 50px 50px 80px 50px;
     background: var(--white);
+}
+
+.dashboard-container .search-repositories .card-search {
+    padding: 25px;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+}
+
+.dashboard-container .search-repositories .card-search header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-container .search-repositories .card-search header svg {
+    font-size: 60px;
+    color: var(--primary);
+}
+
+.dashboard-container .search-repositories .card-search header h1 {
+    margin-left: 25px;
+}
+
+.dashboard-container .search-repositories input {
+    width: 75%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: var(--input);
+    padding: 0 15px;
+    outline: none;
+    font-size: 17px;
+}
+
+.dashboard-container .search-repositories .searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-container .search-repositories button {
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+    padding: 0 15px;
+    outline: none;
+    font-size: 17px;
 }
