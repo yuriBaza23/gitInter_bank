@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiBook, FiPackage, FiTrello } from 'react-icons/fi';
+import { FiBook, FiPackage, FiSearch, FiTrello } from 'react-icons/fi';
 import profileImg from '../../assets/profile-gitinter.svg';
 import './styles.css';
 
@@ -52,11 +52,17 @@ const Dashboard: React.FC = () => {
         
             <section className="search-repositories">
                 <div className="card-search">
-
+                    <header>
+                        <FiSearch/>
+                        <h1>Pesquisa de repositórios</h1>
+                    </header>
+                    <div className='searchbar'>
+                        <input/>
+                        <button>Pesquisar</button>
+                    </div>
                 </div>
                 <h1>Repositórios buscados recentemente</h1>
                 <div className="card-recent">
-
                 </div>
             </section>
         </div>
